@@ -1,10 +1,10 @@
-# voiceprint
+# tonethief
 
-> Reverse-engineer any brand's voice into a deployable AI identity file.
+> Steal any brand's voice from their website. Deployable VOICE.md in seconds. Zero deps, zero API keys.
 
 Point it at any URL. Get a deployable `VOICE.md` in seconds — archetypes, tone spectrum, vocabulary DNA, and a copy-paste AI prompt. Zero dependencies. Zero API keys.
 
-**🌐 [voiceprint.sh](https://slashimagine.github.io/brand-voice/) · [View Demo](https://github.com/SlashImagine/brand-voice/raw/gh-pages/demo.mp4)**
+**🌐 [voiceprint.sh](https://slashimagine.github.io/tonethief/) · [View Demo](https://github.com/SlashImagine/tonethief/raw/gh-pages/demo.mp4)**
 
 ---
 
@@ -22,19 +22,19 @@ Think `SOUL.md` — but for any company on the internet.
 
 ```bash
 # No install required
-npx voiceprint https://liquiddeath.com --voice
+npx tonethief https://liquiddeath.com --voice
 
 # Save to file
-npx voiceprint https://yourbrand.com --voice --output VOICE.md
+npx tonethief https://yourbrand.com --voice --output VOICE.md
 
 # Compare two brands
-npx voiceprint compare stripe.com square.com
+npx tonethief compare stripe.com square.com
 
 # Raw analytics view
-npx voiceprint https://stripe.com
+npx tonethief https://stripe.com
 
 # JSON output for pipelines
-npx voiceprint https://notion.so --format json
+npx tonethief https://notion.so --format json
 ```
 
 ---
@@ -77,7 +77,7 @@ See [`examples/liquid-death-VOICE.md`](examples/liquid-death-VOICE.md) for the f
 ### Analytics view (default)
 
 ```
-$ npx voiceprint https://liquiddeath.com
+$ npx tonethief https://liquiddeath.com
 
 🎙️  Brand Voice Profile: Liquid Death
 
@@ -136,13 +136,13 @@ Each dimension scored 1–10:
 
 ```bash
 # npx (no install)
-npx voiceprint <url>
+npx tonethief <url>
 
 # global install
-npm install -g voiceprint
+npm install -g tonethief
 
 # from source
-git clone https://github.com/SlashImagine/brand-voice
+git clone https://github.com/SlashImagine/tonethief
 node bin/cli.js <url>
 ```
 
@@ -205,4 +205,4 @@ The fix:
 
 [Ad Machine](https://admachine.xyz) — AI-powered ad generation.
 
-MIT License · [GitHub](https://github.com/SlashImagine/brand-voice) · [Site](https://slashimagine.github.io/brand-voice/)
+MIT License · [GitHub](https://github.com/SlashImagine/tonethief) · [Site](https://slashimagine.github.io/tonethief/)

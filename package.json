@@ -1,10 +1,10 @@
 {
-  "name": "voiceprint",
+  "name": "tonethief",
   "version": "1.0.0",
   "description": "Reverse-engineer any brand voice into a deployable VOICE.md. Archetypes, tone spectrum, vocabulary DNA, and a copy-paste AI prompt. Zero dependencies.",
   "type": "module",
   "bin": {
-    "voiceprint": "./bin/cli.js",
+    "tonethief": "./bin/cli.js",
     "brand-voice": "./bin/cli.js"
   },
   "main": "src/index.js",

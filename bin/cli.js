@@ -8,12 +8,12 @@ const help = `
   voiceprint — Reverse-engineer any brand's voice into a deployable identity file.
 
   Usage:
-    voiceprint <url>                          Analyze a brand's voice
-    voiceprint <url> --voice                  Output a deployable VOICE.md
-    voiceprint <url> --output VOICE.md        Save to file
-    voiceprint <url> --format json            Output raw JSON
-    voiceprint <url> --pages 10               Crawl more pages (default: 8)
-    voiceprint compare <url1> <url2>          Compare two brands side-by-side
+    tonethief <url>                          Analyze a brand's voice
+    tonethief <url> --voice                  Output a deployable VOICE.md
+    tonethief <url> --output VOICE.md        Save to file
+    tonethief <url> --format json            Output raw JSON
+    tonethief <url> --pages 10               Crawl more pages (default: 8)
+    tonethief compare <url1> <url2>          Compare two brands side-by-side
 
   Options:
     --voice, -V       Output deployable VOICE.md (drop into any project/AI tool)
@@ -27,7 +27,7 @@ const help = `
   Examples:
     voiceprint https://liquiddeath.com --voice --output VOICE.md
     voiceprint https://stripe.com
-    voiceprint compare https://stripe.com https://square.com
+    tonethief compare https://stripe.com https://square.com
     voiceprint https://notion.so --pages 10 --format json
 
   What is a VOICE.md?
