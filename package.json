@@ -4,7 +4,8 @@
   "description": "Reverse-engineer any brand's voice. Get a deployable VOICE.md in seconds — archetypes, tone spectrum, vocabulary DNA, and a copy-paste AI prompt.",
   "type": "module",
   "bin": {
-    "tonethief": "./bin/cli.js"
+    "tonethief": "./bin/cli.js",
+    "voiceprint": "./bin/cli.js"
   },
   "main": "src/index.js",
   "exports": {
